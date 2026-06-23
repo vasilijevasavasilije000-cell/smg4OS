@@ -1,0 +1,37 @@
+# Build artifacts
+build/
+dist/
+*.iso
+*.img
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Dependencies
+.cache/
+tmp/
+
+# OS specific
+*.o
+*.a
+*.so
+
+# Generated files
+config.h
+config.status
