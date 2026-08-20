@@ -1,0 +1,98 @@
+# smg4OS 1.0 ISO Metadata
+
+**Release:** smg4OS 1.0
+**Tag:** first-realease
+**Build Date:** 2026-08-20
+**Status:** First Release
+
+## About This ISO
+
+This is the first release ISO image for smg4OS - a fun, lightweight Linux distribution inspired by SMG4 (SuperMarioGlitchy4).
+
+## What's Included
+
+- **Full Source Code**: All smg4OS components and applications
+- **STONKS App Market**: 50+ themed applications
+- **Meme Explorer Browser**: Dank meme browser with bookmarks
+- **Bob Player**: Media player for Bob's legendary raps
+- **Setup Wizard**: Interactive installation assistant
+- **Build Scripts**: Everything needed to build the distro
+- **Documentation**: Complete guides and references
+
+## Release Contents
+
+```
+smg4OS-1.0/
+├── scripts/              # Build and development scripts
+├── src/                  # Source files
+├── setup-wizard/         # Installation wizard
+├── stonks/              # App market
+├── meme-explorer/       # Meme browser
+├── bob-player/          # Music player
+├── config/              # Configuration files
+├── packages/            # Package definitions
+├── docs/                # Documentation
+├── README.md            # Project README
+├── LICENSE              # GPL v3 License
+├── INSTALLATION-GUIDE.md
+├── QUICKSTART.md
+└── PROJECT-OVERVIEW.md
+```
+
+## Getting Started
+
+1. **Extract the ISO contents** to your desired location
+2. **Read INSTALLATION-GUIDE.md** for detailed setup instructions
+3. **Run the setup wizard**: `./setup-wizard/smg4-setup.sh`
+4. **Explore the legendary experience!**
+
+## Key Features
+
+✓ Lightweight and fast
+✓ SMG4-themed aesthetics throughout
+✓ Community-driven development
+✓ Gaming-friendly optimizations
+✓ Modern tooling and package management
+✓ Fun personality in every interface
+
+## System Requirements
+
+- **Minimum**: 2GB RAM, 10GB disk space, 1GHz processor
+- **Recommended**: 4GB RAM, 20GB disk space, 2GHz multi-core processor
+- UEFI or BIOS boot support
+
+## Build Information
+
+### Building from Source
+```bash
+git clone https://github.com/vasilijevasavasilije000-cell/smg4OS.git
+cd smg4OS
+./scripts/build.sh
+```
+
+### Creating an ISO
+```bash
+./scripts/create-iso.sh
+```
+
+The ISO will be created in the `iso/` directory.
+
+## License
+
+smg4OS is released under the GNU General Public License v3.
+See LICENSE file for details.
+
+## Support & Contributing
+
+- **Report Issues**: Use GitHub Issues
+- **Contribute**: See CONTRIBUTING.md for guidelines
+- **Discussions**: Use GitHub Discussions for community chat
+
+## Made with ❤️ and powered by memes!
+
+Let's make Linux fun again! 🎉
+
+---
+
+**smg4OS 1.0 - The First Release**
+*Where legendary memes meet legendary Linux*
